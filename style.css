@@ -6,4 +6,52 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    border: none;
+    outline: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: teal;
+}
+.wrapper {
+    max-width: 450px;
+    background: #fff;
+    padding: 16px 25px;
+    border-radius: 8px;
+}
+header h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+header p{
+    font-size: 16px;
+    color: #474747;
+    margin-top: 5px;
+}
+.wrapper .form{
+    margin: 20px 0 30px;
+}
+.form :where(input, button) {
+    width: 100%;
+    border-radius: 5px;
+    height: 55px;
+}
+.form input {
+    border: 1px solid #999;
+    font-size: 16px;
+    padding: 0 16px;
+    margin-bottom: 15px;
+}
+.form button {
+    cursor: pointer;
+    transition: .2s;
+    background: teal;
+    color: #fff;
+    font-weight: 600;
+}
+.form button:hover {
+    background: rgb(2, 94, 94);
 }
