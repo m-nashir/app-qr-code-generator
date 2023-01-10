@@ -45,10 +45,13 @@ header p{
     height: 55px;
 }
 .form input {
-    border: 1px solid #999;
+    border: 1px solid rgb(223, 223, 223);
     font-size: 16px;
     padding: 0 16px;
     margin-bottom: 15px;
+}
+.form input:focus{
+    border: 1px solid teal;
 }
 .form button {
     cursor: pointer;
